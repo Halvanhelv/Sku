@@ -8,7 +8,7 @@ FactoryBot.define do
     price { 123 }
     final_price { 122 }
     delivery_schema { 'Ratail' }
-    category { 'Электроника' }
+    category { 'Electronics' }
     brand { 'Samsung' }
     sequence(:product_id) { |n| n }
   end

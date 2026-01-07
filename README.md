@@ -1,7 +1,7 @@
 # README
 
-Приложения для сохранения каталога товаров с сайта Ozon
-Для переодического  парсинга добавьте задачу в cron 
+Application for saving the product catalog from the Ozon website
+For periodic parsing, add a task to cron
 ```whenever --update-crontab --set environment='development'```
-для ручного запуска запустите 
-```rails c``` и введите ```OzonParseService.new("https://api.ozon.ru/composer-api.bx/page/json/v1?url=/category/televizory-15528").parse```
+for manual execution, run
+```rails c``` and enter ```OzonParseService.new("https://api.ozon.ru/composer-api.bx/page/json/v1?url=/category/televizory-15528").parse```
